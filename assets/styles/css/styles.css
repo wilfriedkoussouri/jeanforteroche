@@ -1,0 +1,354 @@
+body {
+font-size: 16px;
+}
+
+/*NAV*/
+.navbar-black {
+background-color: rgb(49, 31, 42);
+}
+
+.text-logo, .text-logo:hover {
+color: #fff;
+font-size: 2em;
+text-decoration: none;
+}
+
+.nav-item a {
+color: #fff;
+font-size: 1.2em;
+}
+
+.nav-item.active {
+border-radius: 3px;
+}
+
+.nav-item.active:hover {
+background-color: rgb(231, 210, 194);
+}
+
+.nav-link {
+color: #fff;
+color: rgb(49, 31, 42);
+}
+
+.nav-item a:hover {
+color: rgb(49, 31, 42);
+background-color: rgb(231, 210, 194);
+}
+
+/*COVER*/
+#cover {
+margin: 0;
+}
+
+.cover {
+background-image: url(../../images/background.jpg);
+height: 650px;
+background-position: 50% 80%;
+color: rgb(231, 210, 194);
+position: relative;
+}
+
+.cover-title {
+position: absolute;
+left: 65%;
+top: 75%;
+}
+
+.cover-title span {
+font-size: 0.9em;
+font-style: italic;
+}
+
+.cover .btn {
+background-color: rgb(231, 210, 194);
+border: none;
+margin-left: 5px;
+}
+
+.cover .btn:hover {
+background-color: #fff;
+}
+
+.cover a {
+color: rgb(49, 31, 42);
+font-style: italic;
+}
+
+.cover a:hover {
+color: rgb(49, 31, 42);
+text-decoration: none;
+}
+
+/*CHAPITER*/
+.chapiter {
+background-color: #eaeaea;
+padding: 50px 0;
+}
+
+.chapiter .block {
+padding: 5px;
+background-color: #fff;
+}
+
+.chapiter .block img {
+margin-bottom: 5px;
+width: 100%;
+}
+
+.chapiter .block .title {
+margin: 20px 0;
+}
+
+.chapiter .pied-block {
+background-color: #f8f8f8;
+padding: 15px;
+margin: 0;
+text-align: right;
+}
+
+.chapiter .pied-block a {
+color: rgb(49, 31, 42);
+text-decoration: underline;
+}
+
+.title span {
+color: #fff;
+font-size: 0.7em;
+padding: 5px;
+margin-right: 15px;
+background-color: rgb(49, 31, 42);
+}
+
+/*ARTICLE*/
+#article {
+padding: 50px;
+}
+
+.blog {
+background-color: rgb(245, 245, 245);
+margin-right: 15px;
+padding: 10px;
+border-radius: 5px;
+}
+
+/*SINGLE*/
+.single {
+padding: 50px 0;
+}
+
+.single h2 {
+padding-bottom: 50px;
+}
+
+/*NEWSLETTER*/
+.newsletter {
+font-size: 1.5em;
+margin: 50px 0;
+color: rgb(49, 31, 42);
+}
+
+.join {
+padding-right: 50px;
+}
+
+.join-text {
+margin: 0;
+}
+
+.newsletter input {
+width: 100%;
+padding: 5px 5px 5px 15px;
+}
+
+/*A PROPOS*/
+#apropos {
+background-color: rgb(245, 245, 245);
+padding: 50px 0 50px 25px;
+}
+
+#apropos img {
+margin-top: 20px;
+padding: 5px;
+background-color: #fff;
+width: 100%;
+}
+
+#apropos .block {
+margin-top: 20px;
+}
+
+#apropos .block h4 {
+text-align: right;
+}
+
+#apropos .block p {
+text-align: justify;
+}
+
+/*SOCIAL*/
+#social {
+padding: 20px 0;
+background-color: rgb(49, 31, 42);
+font-size: 1.5em;
+color: #fff;
+}
+
+.social-block {
+padding: 0 15px 50px 15px;
+text-align: center;
+}
+
+.social-block .fab {
+margin: 5px;
+font-size: 1.3em;
+}
+
+.social-block h5 {
+text-transform: uppercase;
+margin: 5px 5px 15px 5px;
+font-size: 0.9em;
+}
+
+.last-block {
+margin: auto;
+padding: 10px;
+}
+
+.adress {
+border: 1px solid rgb(231, 210, 194);
+}
+
+.social-block li, .last-block div {
+list-style-type: none;
+font-size: 0.6em;
+text-align: left;
+}
+
+.social-block .btn-primary {
+background-color: rgb(49, 31, 42);
+border: none;
+margin: 5px;
+padding: 0;
+font-size: 1em;
+}
+
+.social-block .btn-primary {
+margin-top: 15px;
+color: rgb(49, 31, 42);
+background-color: rgb(231, 210, 194);
+font-size: 0.7em;
+}
+
+.social-block .btn-primary:hover {
+background-color: inherit;
+}
+
+/*CONNECT*/
+
+#connect {
+text-align: center;
+}
+.form-signin {
+width: 100%;
+max-width: 330px;
+padding: 150px 0;
+margin: 0 auto; }
+
+/*ADMIN*/
+#panel{
+    padding: 150px;
+}
+.panel-view-section .btn{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.panel-index h2 a {
+text-decoration: none;
+color: #858585;
+}
+
+.panel-index-form {
+margin: 50px auto;
+width: 50%;
+}
+
+#panel h2 a:hover {
+color: #333333;
+}
+
+#panel h2 a:focus {
+color: #333333;
+}
+
+.or {
+color: #858585;
+border: 1px solid #858585;
+border-radius: 150%;
+text-align: center;
+text-transform: uppercase;
+display: inline-block;
+padding: 15px;
+}
+
+.panel-index .btn {
+background-color: rgb(49, 31, 42);
+color: #fff;
+border: none;
+margin-top: 15px;
+margin-left: 5px;
+}
+
+.panel-index .btn:hover {
+background-color: #fff;
+color: rgb(49, 31, 42);
+}
+
+.panel-index h2 a {
+color: rgb(49, 31, 42);
+font-style: italic;
+}
+
+.panel-index h2 a:hover {
+color: rgb(49, 31, 42);
+text-decoration: none;
+}
+
+/*ADMIN*/
+
+.panel-admin-section {
+margin-bottom: 150px;
+}
+
+.panel-admin .btn {
+margin: 0 0 25px 15px;
+}
+
+.panel-admin-action {
+width: 335px;
+}
+
+.panel-admin table .btn {
+margin: 0;
+}
+
+/*VIEW*/
+.view {
+margin-bottom: 100px;
+}
+
+.view h1 {
+text-align: center;
+margin-bottom: 50px;
+}
+
+.view label {
+margin-bottom: 0;
+color: rgb(49, 31, 42);
+font-weight: bold;
+font-size: 1.1em;
+}
+
+.view .form-group {
+text-align: justify;
+}

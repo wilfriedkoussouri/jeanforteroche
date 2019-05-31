@@ -1,10 +1,10 @@
 <?php
 
-include_once "_class/Article.php";
+include_once "_class/Chapiter.php";
+include_once "_class/Comment.php";
 
-$user = 'Se Connecter / S\'identifier';
+$datas = Chapiter::getLast();
 
-$allArticles = Article::getAllArticles();
 
-$lastArticle = Article::getLastArticle();
+
 

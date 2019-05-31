@@ -1,6 +1,14 @@
 body {
 font-size: 16px;
 }
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
 
 /*NAV*/
 .navbar-black {
@@ -87,6 +95,7 @@ padding: 50px 0;
 }
 
 .chapiter .block {
+    margin-top: 10px;
 padding: 5px;
 background-color: #fff;
 }
@@ -133,12 +142,47 @@ border-radius: 5px;
 }
 
 /*SINGLE*/
+#single{
+    padding: 50px;
+}
 .single {
 padding: 50px 0;
 }
-
-.single h2 {
-padding-bottom: 50px;
+.single span {
+color: #fff;
+font-size: 1.3em;
+padding: 5px;
+margin-right: 15px;
+background-color: rgb(49, 31, 42);
+}
+.info-chapiter{
+    margin-bottom: 100px;
+}
+.nextprev{
+text-align: center;
+}
+.nextprev a {
+margin-left: 10px;
+}
+.prev-chapiter{
+text-align: left;
+}
+.next-chapiter{
+text-align: right;
+}
+#comment h4{
+    color: #fff;
+    background-color: rgb(49, 31, 42);
+    margin: 50px 0 30px 0;
+}
+.signal-comment{
+    margin: 0;
+    text-align: end;
+    font-size: 0.7em;
+    margin-right: 15px;
+}
+#comment .btn-primary{
+    margin-left: 15px;
 }
 
 /*NEWSLETTER*/
@@ -147,7 +191,6 @@ font-size: 1.5em;
 margin: 50px 0;
 color: rgb(49, 31, 42);
 }
-
 .join {
 padding-right: 50px;
 }
@@ -159,6 +202,14 @@ margin: 0;
 .newsletter input {
 width: 100%;
 padding: 5px 5px 5px 15px;
+}
+.newsletter .btn {
+    background-color: rgb(231, 210, 194);
+    border: none;
+    margin-left: 5px;
+}
+.newsletter .btn-primary:hover{
+    background-color: rgb(231, 210, 194);
 }
 
 /*A PROPOS*/
@@ -255,100 +306,27 @@ max-width: 330px;
 padding: 150px 0;
 margin: 0 auto; }
 
-/*ADMIN*/
-#panel{
-    padding: 150px;
-}
-.panel-view-section .btn{
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-.panel-index h2 a {
-text-decoration: none;
-color: #858585;
-}
+/*// --------------------------- //
+//            ADMIN             //
+// --------------------------- //*/
 
-.panel-index-form {
-margin: 50px auto;
-width: 50%;
-}
+#admin .sidebar{
+    padding: 150px 0;
+    background-color: #eaeaea; }
+#admin .nav-item a{
+    color: rgb(49, 31, 42); }
+#admin .btn{
+     }
 
-#panel h2 a:hover {
-color: #333333;
-}
+/*BOOK*/
 
-#panel h2 a:focus {
-color: #333333;
-}
+.book h2{
+    margin-bottom: 50px; }
 
-.or {
-color: #858585;
-border: 1px solid #858585;
-border-radius: 150%;
-text-align: center;
-text-transform: uppercase;
-display: inline-block;
-padding: 15px;
+/*COMMENT*/
+#admin-section span{
+    font-style: italic;
+    font-size: 0.9em;
 }
-
-.panel-index .btn {
-background-color: rgb(49, 31, 42);
-color: #fff;
-border: none;
-margin-top: 15px;
-margin-left: 5px;
-}
-
-.panel-index .btn:hover {
-background-color: #fff;
-color: rgb(49, 31, 42);
-}
-
-.panel-index h2 a {
-color: rgb(49, 31, 42);
-font-style: italic;
-}
-
-.panel-index h2 a:hover {
-color: rgb(49, 31, 42);
-text-decoration: none;
-}
-
-/*ADMIN*/
-
-.panel-admin-section {
-margin-bottom: 150px;
-}
-
-.panel-admin .btn {
-margin: 0 0 25px 15px;
-}
-
-.panel-admin-action {
-width: 335px;
-}
-
-.panel-admin table .btn {
-margin: 0;
-}
-
-/*VIEW*/
-.view {
-margin-bottom: 100px;
-}
-
-.view h1 {
-text-align: center;
-margin-bottom: 50px;
-}
-
-.view label {
-margin-bottom: 0;
-color: rgb(49, 31, 42);
-font-weight: bold;
-font-size: 1.1em;
-}
-
-.view .form-group {
-text-align: justify;
-}
+#admin-section btn{
+    margin: 10px 5px 10px 0; }

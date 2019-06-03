@@ -5,7 +5,7 @@
                 <thead>
                 <tr>
                     <th>Commentaire</th>
-                    <th class="col-lg-2">Action</th>
+                    <th>Action</th>
                 </tr>
                 </thead>
                 <tbody>

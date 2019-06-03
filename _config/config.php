@@ -25,9 +25,9 @@ define("PATH_REQUIRE", substr($_SERVER['SCRIPT_FILENAME'], 0, -9)); // Pour fonc
 define("PATH", substr($_SERVER['PHP_SELF'], 0, -9)); // Pour images, fichiers etc (html)
 
 // Website informations
-define("WEBSITE_TITLE", "Mon site");
-define("WEBSITE_NAME", "Mon site");
-define("WEBSITE_URL", "https://monsite.com");
+define("WEBSITE_TITLE", "Jean Forteroche");
+define("WEBSITE_NAME", "Jean Forteroche");
+define("WEBSITE_URL", "https://jeanforteroche.webagency.yj.fr");
 define("WEBSITE_DESCRIPTION", "T");
 define("WEBSITE_KEYWORDS", "");
 define("WEBSITE_LANGUAGE", "");
@@ -42,9 +42,9 @@ define("WEBSITE_FACEBOOK_IMAGE", "");
 
 // DataBase informations
 define("DATABASE_HOST", "localhost");
-define("DATABASE_NAME", "jean_forteroche");
-define("DATABASE_USER", "root");
-define("DATABASE_PASSWORD", "root");
+define("DATABASE_NAME", "webanugf_jeanforteroche");
+define("DATABASE_USER", "webanugf_will");
+define("DATABASE_PASSWORD", "koussouri25");
 
 
 // Language

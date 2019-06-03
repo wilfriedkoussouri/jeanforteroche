@@ -11,7 +11,12 @@ class Chapiter
     public $extract;
     public $date;
     public $author;
+    public $image;
 
+    /**
+     * Chapiter constructor.
+     * @param $data
+     */
     public function __construct($data)
     {
         $this->id = $data['id'];
@@ -21,13 +26,23 @@ class Chapiter
         $this->date = date_format(date_create($data['date']), "d/m/Y");
         $this->content = $data['content'];
         $this->extract = $this->getExtract($this->content);
+        $this->author = $data['author_id'];
+        $this->image = $data['image'];
 
     }
 
+    /**
+     * @param $var
+     * @return bool|string
+     */
     private function getExtract($var){
         return substr($var, 0, 230);
     }
 
+    /**
+     * @param $id
+     * @return mixed
+     */
     private function getNbComment($id) {
         global $db;
 
@@ -41,6 +56,10 @@ class Chapiter
         return $req->fetch()[0];
     }
 
+    /**
+     * @param $chapiter
+     * @return mixed
+     */
     public static function getOne($chapiter){
         global $db;
 
@@ -55,6 +74,9 @@ class Chapiter
         return $req->fetch();
     }
 
+    /**
+     * @return array
+     */
     public static function getAll(){
         global $db;
 
@@ -68,14 +90,15 @@ class Chapiter
         return $req->fetchAll();
     }
 
+    /**
+     * @return array
+     */
     public static function getLast(){
         global $db;
 
         $req = $db->prepare('
         SELECT *
         FROM chapiter
-        ORDER BY chapiter DESC
-        LIMIT 3
         ');
 
         $req->execute([]);

@@ -1,7 +1,7 @@
-<head>
+
 <!-- Meta Tags -->
 <meta charset="UTF-8"/>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><?= WEBSITE_TITLE ?></title>
 <meta name="viewport" content="width=device-width, user-scalable=0, maximum-scale=1, initial-scale=1.0, maximum-scale=1">
 <meta name="author" content="<?= WEBSITE_AUTHOR?>">
 <meta name="description" content="<?= WEBSITE_DESCRIPTION?>" />
@@ -18,11 +18,13 @@
 <meta property="og:image"             content="<?= WEBSITE_FACEBOOK_IMAGE?>" />
 
 <!-- CSS Styles -->
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles/css/styles.css"/>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
 
 <!-- JS Files -->
-</head>
+    <script src="https://cloud.tinymce.com/5/tinymce.min.js?apiKey=hc0xzez73qgrq6p01mpmurx9nqykipwsi7bkakgn7828k21p" defer></script>
+    <script>tinymce.init({ selector:'.mytextarea' }); defer</script>
+
+

@@ -330,3 +330,26 @@ margin: 0 auto; }
 }
 #admin-section btn{
     margin: 10px 5px 10px 0; }
+
+@media(max-width: 767px) {
+    container{
+        padding: 0;
+    }
+    .cover{
+        background-size: 350%;
+    }
+    .cover-title{
+        top: 70%;
+        color: black;
+    }
+    .join{
+        text-align: center;
+        padding: 0;
+    }
+    #apropos{
+        padding: 0;
+    }
+    #single{
+        padding: 0;
+    }
+}

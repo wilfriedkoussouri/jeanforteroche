@@ -1,4 +1,4 @@
-<footer id="social">
+<div id="social">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4 social-block">
@@ -26,8 +26,8 @@
                     <div>75016 Paris</div>
                     <div><i class="fas fa-phone"></i> 01 55 74 60 90</div>
                 </div>
-                <button type="button" class="btn btn-primary"><a href="mailto:jeanforteroche@sfr.fr"><i class="fas fa-envelope"></i> Contactez moi!</a></button>
+                <a class="btn btn-primary" href="mailto:jeanforteroche@sfr.fr"><i class="fas fa-envelope"></i> Contactez moi!</a>
             </div>
         </div>
     </div>
-</footer>
+</div>
